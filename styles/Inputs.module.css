@@ -1,0 +1,73 @@
+.outerFrame {
+  width: 80%;
+  margin: 40px;
+  padding: 5px;
+  background: rgb(60, 60, 60);
+  border-radius: 10px;
+}
+
+.mainInputs {
+  padding: 20px;
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.containerInput {
+  padding: 20px;
+  border-bottom: 1px solid gray;
+}
+
+.containerInput :last-child {
+  border-bottom: none;
+}
+
+.inputTitle {
+  display: flex;
+}
+
+.input {
+  height: 100px;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background: rgb(50, 50, 50);
+}
+
+.icon {
+  margin-right: 15px;
+  font-size: 1.3rem;
+}
+
+.containerInputSubmit {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.inputSubmit {
+  width: 50%;
+  padding: 7px;
+  border-radius: 0px 0px 7px 7px;
+}
+
+.tipBox {
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.tip {
+  text-align: center;
+  font-weight: 100;
+  font-size: 1rem;
+  letter-spacing: 0.4px;
+  word-spacing: 2px;
+  line-height: 2;
+}
+
+@media screen and (max-width: 500px) {
+  .icon {
+    margin-right: 10px;
+  }
+}

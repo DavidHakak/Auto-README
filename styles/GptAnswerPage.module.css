@@ -1,0 +1,37 @@
+.container {
+  background: var(--primary-glow);
+}
+
+.header {
+  height: 10vh;
+}
+
+.gptAnswerMain {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.innerGptAnswerMain {
+  height: 70vh;
+  width: 80%;
+  padding: 10px;
+  background: black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gptAnswerBox {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  overflow: scroll;
+  font-size: 0.85rem;
+  letter-spacing: 0.4px;
+  word-spacing: 2px;
+  line-height: 2;
+}
